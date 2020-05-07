@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SQlite</string>
+    <string name="SQlite_et">DATOS DE CLIENTES</string>
+    <string name="Datos_et"></string>
+    <string name="GuardarNombre_et">ALTA</string>
+    <string name="LeerNombre_et">MODIFICAR</string>
+    <string name="CrearAgenda_et">CREAR AGENDA</string>
+    <string name="BorrarNombre_et">BAJA</string>
+    <string name="Salir_et">SALIR</string>
+    <string name="EscribaApellido_et"></string>
+    <string name="EscribaTelf_et"></string>
+    <string name="EscribaDireccion_et"></string>
+    <string name="EscribaEmail_et"></string>
+    <string name="TvNombre">Nombre:</string>
+    <string name="TvApellido">Apellidos:</string>
+    <string name="TvTelefono">Teléfono:</string>
+    <string name="TvDireccion">Dirección:</string>
+    <string name="TvEmail">Email:</string>
+    <string name="TvLeerDatos">CONSULTAR</string>
+</resources>

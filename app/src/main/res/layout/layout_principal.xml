@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Principal">
+
+    <TextView
+        android:id="@+id/etTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#201F1F"
+        android:gravity="center"
+        android:text="@string/SQlite_et"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#7C292E"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/TvNombre" />
+
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/Datos_et" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/TvApellido" />
+
+        <EditText
+            android:id="@+id/etApellido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/EscribaApellido_et" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/TvDireccion" />
+
+        <EditText
+            android:id="@+id/etDireccion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/EscribaDireccion_et" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/TvTelefono" />
+
+        <EditText
+            android:id="@+id/etTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/EscribaTelf_et" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/TvEmail" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/EscribaEmail_et" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/etGuardarNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="GuardarDatosComprobando"
+            android:text="@string/GuardarNombre_et" />
+
+        <Button
+            android:id="@+id/etBorrarNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="BorrarDatosComprobando"
+            android:text="@string/BorrarNombre_et" />
+
+        <Button
+            android:id="@+id/etLeerDatos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="LeerDatos"
+            android:text="@string/TvLeerDatos" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/etLeerNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Modificar"
+            android:text="@string/LeerNombre_et" />
+
+        <Button
+            android:id="@+id/etSalir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="salirWit"
+            android:text="@string/Salir_et" />
+
+    </LinearLayout>
+
+</LinearLayout>
